@@ -1,0 +1,65 @@
+2023-06-20 18:25:27.075 +06:00 [INF] App srting
+2023-06-20 18:25:31.813 +06:00 [INF] INdex
+2023-06-20 18:25:33.090 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: RenderSectionAsync invocation in '/Views/Shared/_Layout.cshtml' is invalid. The section 'Scripts' has already been rendered.
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPage.RenderSectionAsyncCore(String sectionName, Boolean required)
+   at AspNetCoreGeneratedDocument.Views_Shared__Layout.<ExecuteAsync>b__27_1() in F:\Asp\FirstDemo\FirstDemo.Web\Views\Shared\_Layout.cshtml:line 49
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.SetOutputContentAsync()
+   at AspNetCoreGeneratedDocument.Views_Shared__Layout.ExecuteAsync()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-06-20 18:27:39.547 +06:00 [INF] App srting
+2023-06-20 18:27:41.725 +06:00 [INF] INdex
+2023-06-20 18:28:59.123 +06:00 [INF] INdex
+2023-06-20 18:30:09.857 +06:00 [INF] App srting
+2023-06-20 18:30:11.667 +06:00 [INF] INdex
+2023-06-20 18:33:21.245 +06:00 [INF] App srting
+2023-06-20 18:33:22.813 +06:00 [INF] INdex
+2023-06-20 18:33:35.098 +06:00 [INF] Privacy
+2023-06-20 18:35:14.828 +06:00 [INF] App srting
+2023-06-20 18:35:16.641 +06:00 [INF] INdex
+2023-06-20 18:35:23.146 +06:00 [INF] Privacy
+2023-06-20 18:42:41.397 +06:00 [INF] App srting
+2023-06-20 18:42:43.649 +06:00 [INF] INdex
+2023-06-20 18:43:06.682 +06:00 [INF] Privacy
+2023-06-20 19:15:36.722 +06:00 [INF] App srting
+2023-06-20 19:15:37.894 +06:00 [INF] INdex
+2023-06-20 19:16:51.045 +06:00 [INF] INdex
+2023-06-20 19:16:51.854 +06:00 [INF] INdex
+2023-06-20 19:16:52.070 +06:00 [INF] INdex
+2023-06-20 19:16:52.523 +06:00 [INF] INdex
+2023-06-20 19:16:52.683 +06:00 [INF] INdex
+2023-06-20 19:16:52.864 +06:00 [INF] INdex
+2023-06-20 19:16:53.072 +06:00 [INF] INdex
+2023-06-20 19:33:34.728 +06:00 [INF] INdex
+2023-06-20 19:33:43.134 +06:00 [INF] Privacy
+2023-06-20 19:36:09.875 +06:00 [INF] INdex
+2023-06-20 19:36:23.349 +06:00 [INF] Privacy
+2023-06-20 19:36:26.742 +06:00 [INF] INdex
+2023-06-20 19:37:12.208 +06:00 [INF] INdex
+2023-06-20 19:38:08.379 +06:00 [INF] INdex
+2023-06-20 19:39:04.479 +06:00 [INF] INdex
+2023-06-20 19:39:32.879 +06:00 [INF] INdex

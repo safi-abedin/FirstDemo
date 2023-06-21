@@ -1,0 +1,10 @@
+﻿[
+  {
+    "outputFile": "wwwroot/scss/StyleSheet.css",
+    "inputFile": "wwwroot/scss/StyleSheet.scss"
+  },
+  {
+    "outputFile": "wwwroot/scss/_header.css",
+    "inputFile": "wwwroot/scss/_header.scss"
+  }
+]

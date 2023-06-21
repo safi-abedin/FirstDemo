@@ -1,0 +1,20 @@
+﻿
+
+@import 'header';
+
+.box{
+    color : $btnColor ;
+}
+
+
+p {
+    background-color: blue;
+
+    button {
+        background-color: yellow;
+
+        &:hover {
+            background-color: pink;
+        }
+    }
+}
