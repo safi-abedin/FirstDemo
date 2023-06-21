@@ -4201,6 +4201,25 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "FirstDemo.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Autofac.Extensions.DependencyInjection": "8.0.0",
+          "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "6.0.16",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.16",
+          "Microsoft.AspNetCore.Identity.UI": "6.0.16",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.16",
+          "Microsoft.EntityFrameworkCore.Tools": "6.0.16",
+          "Serilog.AspNetCore": "7.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FirstDemo.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FirstDemo.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -11975,11 +11994,17 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "FirstDemo.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../FirstDemo.Infrastructure/FirstDemo.Infrastructure.csproj",
+      "msbuildProject": "../FirstDemo.Infrastructure/FirstDemo.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Autofac.Extensions.DependencyInjection >= 8.0.0",
+      "FirstDemo.Infrastructure >= 1.0.0",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 6.0.16",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.16",
       "Microsoft.AspNetCore.Identity.UI >= 6.0.16",
@@ -12016,7 +12041,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "F:\\Asp\\FirstDemo\\FirstDemo.Infrastructure\\FirstDemo.Infrastructure.csproj": {
+              "projectPath": "F:\\Asp\\FirstDemo\\FirstDemo.Infrastructure\\FirstDemo.Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

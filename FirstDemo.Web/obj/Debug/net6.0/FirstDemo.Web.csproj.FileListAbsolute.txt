@@ -281,3 +281,5 @@ F:\Asp\FirstDemo\FirstDemo.Web\bin\Debug\net6.0\Serilog.Sinks.File.dll
 F:\Asp\FirstDemo\FirstDemo.Web\bin\Debug\net6.0\System.Text.Encodings.Web.dll
 F:\Asp\FirstDemo\FirstDemo.Web\bin\Debug\net6.0\System.Text.Json.dll
 F:\Asp\FirstDemo\FirstDemo.Web\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+F:\Asp\FirstDemo\FirstDemo.Web\bin\Debug\net6.0\FirstDemo.Infrastructure.dll
+F:\Asp\FirstDemo\FirstDemo.Web\bin\Debug\net6.0\FirstDemo.Infrastructure.pdb

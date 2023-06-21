@@ -1,7 +1,7 @@
 using Autofac.Extensions.DependencyInjection;
 using Autofac;
 using FirstDemo.Web;
-using FirstDemo.Web.Data;
+using FirstDemo.Infrastructure;
 using FirstDemo.Web.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;

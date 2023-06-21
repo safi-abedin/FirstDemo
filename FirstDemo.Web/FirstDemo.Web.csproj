@@ -29,11 +29,14 @@
 
   <ItemGroup>
     <Folder Include="Areas\Admin\Data\" />
-    <Folder Include="Areas\Admin\Models\" />
   </ItemGroup>
 
   <ItemGroup>
     <None Include="compilerconfig.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FirstDemo.Infrastructure\FirstDemo.Infrastructure.csproj" />
   </ItemGroup>
 
   <ItemGroup>
