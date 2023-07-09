@@ -9,6 +9,8 @@ using Serilog;
 using Serilog.Events;
 using static FirstDemo.Web.WebModule;
 using System.Reflection;
+using FirstDemo.Infrastructure.DbContexts;
+
 try
 {
     var builder = WebApplication.CreateBuilder(args);

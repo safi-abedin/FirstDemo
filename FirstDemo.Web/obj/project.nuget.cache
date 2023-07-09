@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "6XTCsOvch8Twb4Qypaxwc9YuFuCEgRX58aWG/ZBBlJjs5amO2PYK3WTSvjzKAFj4A/qjXUiirV8C+tLFqWuwag==",
+  "dgSpecHash": "g55N0VeIzuj2EBmyNCeI0H4RMwoirDnDN1qFwiMYa8mepeHRrGJpTZdoAngTlyyL4IEpZyNC8iu1mMEISE07xg==",
   "success": true,
   "projectFilePath": "F:\\Asp\\FirstDemo\\FirstDemo.Web\\FirstDemo.Web.csproj",
   "expectedPackageFiles": [
@@ -78,7 +78,7 @@
     "C:\\Users\\Safi Abedin\\.nuget\\packages\\microsoft.codeanalysis.razor\\6.0.0\\microsoft.codeanalysis.razor.6.0.0.nupkg.sha512",
     "C:\\Users\\Safi Abedin\\.nuget\\packages\\microsoft.codeanalysis.scripting.common\\4.0.0\\microsoft.codeanalysis.scripting.common.4.0.0.nupkg.sha512",
     "C:\\Users\\Safi Abedin\\.nuget\\packages\\microsoft.codeanalysis.workspaces.common\\4.0.0\\microsoft.codeanalysis.workspaces.common.4.0.0.nupkg.sha512",
-    "C:\\Users\\Safi Abedin\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\Safi Abedin\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Safi Abedin\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\Safi Abedin\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\Safi Abedin\\.nuget\\packages\\microsoft.diasymreader\\1.3.0\\microsoft.diasymreader.1.3.0.nupkg.sha512",
@@ -163,6 +163,7 @@
     "C:\\Users\\Safi Abedin\\.nuget\\packages\\serilog.sinks.console\\4.0.1\\serilog.sinks.console.4.0.1.nupkg.sha512",
     "C:\\Users\\Safi Abedin\\.nuget\\packages\\serilog.sinks.debug\\2.0.0\\serilog.sinks.debug.2.0.0.nupkg.sha512",
     "C:\\Users\\Safi Abedin\\.nuget\\packages\\serilog.sinks.file\\5.0.0\\serilog.sinks.file.5.0.0.nupkg.sha512",
+    "C:\\Users\\Safi Abedin\\.nuget\\packages\\servicestack.text\\6.9.0\\servicestack.text.6.9.0.nupkg.sha512",
     "C:\\Users\\Safi Abedin\\.nuget\\packages\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
     "C:\\Users\\Safi Abedin\\.nuget\\packages\\system.buffers\\4.3.0\\system.buffers.4.3.0.nupkg.sha512",
     "C:\\Users\\Safi Abedin\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",

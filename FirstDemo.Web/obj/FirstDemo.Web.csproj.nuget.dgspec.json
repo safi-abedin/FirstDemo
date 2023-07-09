@@ -166,6 +166,10 @@
             "Serilog.AspNetCore": {
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "ServiceStack.Text": {
+              "target": "Package",
+              "version": "[6.9.0, )"
             }
           },
           "imports": [
